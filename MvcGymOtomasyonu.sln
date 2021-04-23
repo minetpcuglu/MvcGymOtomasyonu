@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcGymOtomasyonu", "MvcGymOtomasyonu\MvcGymOtomasyonu.csproj", "{1E295387-1987-480F-9A65-347B0D9AB9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E295387-1987-480F-9A65-347B0D9AB9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E295387-1987-480F-9A65-347B0D9AB9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E295387-1987-480F-9A65-347B0D9AB9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E295387-1987-480F-9A65-347B0D9AB9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C14292B-1EA9-4BA0-83E3-80AB3F5C2DE3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+﻿@using MvcGymOtomasyonu.Models.Entity
+@model List<TblUye>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th> ÜYE ID</th>
+        <th> ADI SOYADI</th>
+        <th> TELEFON</th>
+        <th> CİNSİYET</th>
+        <th> YAŞ</th>
+        <th> ÖDEME</th>
+        <th> ZAMANLAMA</th>
+    </tr>
+    <tbody>
+        @foreach (var uye in Model)
+        {
+            <tr>
+                <th>@uye.Id</th>
+                <td>@uye.AdıSoyad</td>
+                <td>@uye.Telefon</td>
+                <td>@uye.Cinsiyet</td>
+                <td>@uye.Yas</td>
+                <td>@uye.Odeme</td>
+                <td>@uye.Zamanlama</td>
+            </tr>
+        }
+    </tbody>
+</table>
